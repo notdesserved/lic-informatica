@@ -1,0 +1,107 @@
+[
+  { "cod": 7071, "nombre": "Tecnología Aplicada", "correlativas": [], "año": 1 },
+  { "cod": 1017, "nombre": "Álgebra y Geometría Analítica", "correlativas": [], "año": 1 },
+  { "cod": 7030, "nombre": "Algoritmo y Estructura de Datos", "correlativas": [], "año": 1 },
+  { "cod": 7032, "nombre": "Teoría de Sistemas y Organizaciones", "correlativas": [], "año": 1 },
+  { "cod": 2001, "nombre": "Análisis y Producción del Discurso", "correlativas": [], "año": 1 },
+  { "cod": 2004, "nombre": "Problemática Regional", "correlativas": [], "año": 1 },
+  { "cod": 7031, "nombre": "Arquitectura de Computadores I", "correlativas": [7071], "año": 1 },
+  { "cod": 7033, "nombre": "Programación con Objetos I", "correlativas": [7030], "año": 1 },
+  { "cod": 1018, "nombre": "Matemática Discreta", "correlativas": [], "año": 1 },
+
+  { "cod": 1019, "nombre": "Análisis Matemático I", "correlativas": [1017], "año": 2 },
+  { "cod": 7034, "nombre": "Programación con Objetos II", "correlativas": [7033], "año": 2 },
+  { "cod": 4, "nombre": "Electiva", "correlativas": [], "año": 2 },
+  { "cod": 7036, "nombre": "Arquitectura de Computadores II", "correlativas": [7031], "año": 2 },
+  { "cod": 1020, "nombre": "Probabilidad y Estadística", "correlativas": [1019], "año": 2 },
+  { "cod": 7035, "nombre": "Lenguajes Formales", "correlativas": [1018], "año": 2 },
+  { "cod": 2036, "nombre": "Universidad, Ciencia y Sociedad", "correlativas": [], "año": 2 },
+  { "cod": 7041, "nombre": "Ingeniería de Software I", "correlativas": [7030, 7032], "año": 2 },
+  { "cod": 7039, "nombre": "Sistemas Operativos I", "correlativas": [7031], "año": 2 },
+  { "cod": 7014, "nombre": "Base de Datos I", "correlativas": [7030, 1018], "año": 2 },
+  { "cod": 7040, "nombre": "Comunicación y Redes I", "correlativas": [7031], "año": 2 },
+
+  { "cod": 1021, "nombre": "Análisis Matemático II", "correlativas": [1019, 1020], "año": 3 },
+  { "cod": 7017, "nombre": "Base de Datos II", "correlativas": [7039, 7014], "año": 3 },
+  { "cod": 7045, "nombre": "Comunicación y Redes II", "correlativas": [7040], "año": 3 },
+  { "cod": 7043, "nombre": "Ingeniería de Software II", "correlativas": [7041], "año": 3 },
+  { "cod": 7046, "nombre": "Explotación de Datos", "correlativas": [7017], "año": 3 },
+  {
+    "cod": 7044,
+    "nombre": "Interfaces de Usuario y Tecnologías Web",
+    "correlativas": [7034],
+    "año": 3
+  },
+  {
+    "cod": 7048,
+    "nombre": "Programación con Objetos III",
+    "correlativas": [7039, 7034, 7017],
+    "año": 3
+  },
+  { "cod": 1022, "nombre": "Matemática Aplicada", "correlativas": [1021], "año": 3 },
+  { "cod": 7047, "nombre": "Taller de Redes", "correlativas": [7045], "año": 3 },
+  { "cod": 7050, "nombre": "Sistemas Operativos II", "correlativas": [7039, 7036, 7045], "año": 3 },
+
+  {
+    "cod": 7023,
+    "nombre": "Dirección y Evaluación de Proyectos Informáticos",
+    "correlativas": [7043],
+    "año": 4
+  },
+  { "cod": 7051, "nombre": "Arquitectura de Software", "correlativas": [7043, 7036], "año": 4 },
+  {
+    "cod": 1023,
+    "nombre": "Modelos, Simulación y Teoría de la Decisión",
+    "correlativas": [1021],
+    "año": 4
+  },
+  {
+    "cod": 2037,
+    "nombre": "Metodología de la Investigación",
+    "correlativas": [7043, 1022],
+    "año": 4
+  },
+  { "cod": 7058, "nombre": "Desarrollo de Compiladores", "correlativas": [7054], "año": 4 },
+  { "cod": 7052, "nombre": "Paradigmas de Programación", "correlativas": [7048, 7035], "año": 4 },
+  { "cod": 7054, "nombre": "Lenguajes de Programación", "correlativas": [7048, 7035], "año": 4 },
+  { "cod": 7057, "nombre": "Infraestructura de Sistemas", "correlativas": [7036, 7047], "año": 4 },
+  { "cod": 7059, "nombre": "Inteligencia Artificial", "correlativas": [7048], "año": 4 },
+  {
+    "cod": 7060,
+    "nombre": "Práctica Profesional",
+    "correlativas": [7046, 7051, 7044, 7023],
+    "año": 4
+  },
+
+  { "cod": 9, "nombre": "Optativa I", "correlativas": [], "año": 5 },
+  {
+    "cod": 2038,
+    "nombre": "Aspectos Legales y Sociales de la Informática",
+    "correlativas": [],
+    "año": 5
+  },
+  { "cod": 7062, "nombre": "Ingeniería de Software III", "correlativas": [7043], "año": 5 },
+  {
+    "cod": 7064,
+    "nombre": "Sistemas de Tiempo Real y Misión Crítica",
+    "correlativas": [7050],
+    "año": 5
+  },
+  {
+    "cod": 7067,
+    "nombre": "Teoría de la Computación",
+    "correlativas": [7048, 7052, 7058],
+    "año": 5
+  },
+  { "cod": 9021, "nombre": "Economía I", "correlativas": [], "año": 5 },
+  { "cod": 10, "nombre": "Optativa II", "correlativas": [], "año": 5 },
+  { "cod": 7065, "nombre": "Seguridad y Auditoría", "correlativas": [7050, 7017, 7047], "año": 5 },
+  {
+    "cod": 8022,
+    "nombre": "Administración y Gestión de las Organizaciones",
+    "correlativas": [],
+    "año": 5
+  },
+  { "cod": 9022, "nombre": "Economía II", "correlativas": [9021], "año": 5 },
+  { "cod": 7068, "nombre": "Trabajo Final", "correlativas": [7060, 7059], "año": 5 }
+]
